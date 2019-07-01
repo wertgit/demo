@@ -1,28 +1,14 @@
 {
-    "status": true,
-    "code": 200,
-    "data": {
-        "calenderInfo": [
-            {
-                "title": "Chinese new year",
-                "class": "event-warning",
-                "day": "08",
-                "month": "02",
-                "year": "2016",
-                "start": "2016-02-08",
-                "end": "2016-02-08",
-                "type": "Holiday"
-            },
-            {
-                "title": "Ganesan a/l davaraju",
-                "class": "event-info",
-                "day": "16",
-                "month": "04",
-                "year": "2019",
-                "start": "2019-04-16",
-                "end": "2019-04-16",
-                "type": "Medical Leave"
-            }
-        ]
-    }
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
